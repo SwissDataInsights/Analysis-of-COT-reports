@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f565dbd4-8429-44ff-a04a-60202fa82106" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Praca z COT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/analiza akcji-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pobranie_cot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.laczenie_csv_cot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.porzadkowanie_cot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.laczenie_kursu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABB_Ltd_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABB_Ltd_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alcon_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alcon_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtesting str v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtesting strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EURUSD=X_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EURUSD=X_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geberit_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geberit_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Givaudan_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Givaudan_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradient_boosting_example (2).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Holcim_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Holcim_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KuehneNagel_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KuehneNagel_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logitech_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logitech_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lonza_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lonza_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Median_predict_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nestle_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nestle_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Novartis_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Novartis_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartnersGroup_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartnersGroup_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Richemont_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Richemont_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roche_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roche_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sika_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sika_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sonova_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sonova_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwissLife_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwissLife_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwissRE_RSI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwissReAG_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwissReAG_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Swiss_Stock_Charts.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Swisscom_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Swisscom_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UBS_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UBS_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZurichInsurance_data_D1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZurichInsurance_data_W1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analiza akcji.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurusd_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interwały_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediana 6_D1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/oracle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0000/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0000/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0000/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0001/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0001/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0001/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0002/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0002/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0002/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0003/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0003/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0003/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0004/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0004/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0004/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0005/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0005/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0005/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0006/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0006/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0006/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0007/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0007/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0007/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0008/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0008/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0008/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0009/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0009/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0009/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0010/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0010/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0010/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0011/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0011/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0011/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0012/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0012/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0012/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0013/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0013/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0013/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0014/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0014/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0014/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0015/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0015/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0015/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0016/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0016/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0016/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0017/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0017/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0017/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0018/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0018/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0018/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0019/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0019/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0019/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0020/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0020/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0020/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0021/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0021/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0021/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0022/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0022/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0022/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0023/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0023/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0023/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0024/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0024/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0024/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0025/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0025/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0025/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0026/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0026/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0026/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0027/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0027/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0027/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0028/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0028/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0028/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0029/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0029/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0029/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0030/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0030/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0030/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0031/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0031/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0031/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0032/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0032/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0032/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0033/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0033/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0033/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0034/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0034/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0034/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0035/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0035/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0035/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0036/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0036/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0036/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0037/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0037/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0037/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0038/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0038/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0038/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0039/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0039/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0039/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0040/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0040/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0040/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0041/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0041/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0041/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0042/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0042/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0042/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0043/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0043/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0043/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0044/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0044/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0044/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0045/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0045/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0045/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0046/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0046/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0046/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0047/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0047/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0047/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0048/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0048/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0048/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0049/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0049/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0049/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0050/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0050/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0050/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0051/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0051/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0051/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0052/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0052/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0052/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0053/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0053/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0053/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0054/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0054/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0054/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0055/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0055/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0055/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0056/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0056/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0056/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0057/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0057/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0057/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0058/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0058/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0058/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0059/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0059/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0059/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0060/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0060/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0060/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0061/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0061/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0061/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0062/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0062/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0062/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0063/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0063/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0063/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0064/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0064/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0064/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0065/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0065/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0065/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0066/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0066/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0066/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0067/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0067/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0067/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0068/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0068/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0068/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0069/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0069/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0069/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0070/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0070/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0070/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0071/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0071/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0071/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0072/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0072/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0072/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0073/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0073/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0073/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0074/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0074/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0074/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0075/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0075/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0075/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0076/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0076/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0076/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0077/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0077/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0077/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0078/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0078/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0078/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0079/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0079/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0079/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0080/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0080/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0080/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0081/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0081/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0081/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0082/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0082/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0082/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0083/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0083/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0083/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0084/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0084/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0084/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0085/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0085/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0085/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0086/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0086/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0086/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0087/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0087/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0087/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0088/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0088/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0088/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0089/build_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0089/checkpoint.weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/trial_0089/trial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dir/lstm_median_tuning/tuner0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prepare data for backt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saxo_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saxo_token_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siec_neuronowa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test modelu w aws.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zaczyt danych.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hdiY0IZcxov0V5PdtPk9cx726o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.01.pobranie_cot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02.laczenie_csv_cot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03.porzadkowanie_cot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04.laczenie_kursu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Backtesting str v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Backtesting strategy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bands.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bandy_D1_W1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Median_predict_LSTM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SIX.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwissRE.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwissRE_LSTM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwissRE_RSI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwissRE_dane_D1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwissRE_pobranie danych.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interwały_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mediana 6 okresów.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mediana 6_D1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.obliczenia wskaźników.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saxo_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saxo_token_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strategy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test-dane.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zaczyt danych.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f565dbd4-8429-44ff-a04a-60202fa82106" name="Changes" comment="" />
+      <created>1717930398250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717930398250</updated>
+      <workItem from="1730048160539" duration="607000" />
+      <workItem from="1730483063733" duration="25000" />
+      <workItem from="1730559401236" duration="15000" />
+      <workItem from="1730618748908" duration="204000" />
+      <workItem from="1731084255433" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
