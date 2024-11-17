@@ -1,40 +1,138 @@
-### 1. *Problem Definition*
-   - Define the main goal of the project, e.g., predicting prices in the futures market or analyzing investor sentiment.
-   - Identify which information from the COT reports might be relevant to achieving the goal (e.g., large trader positions, changes in open interest).
+# README: Predicting Close Price with Clustering and LightGBM
 
-### 2. *Data Acquisition*
-   - Download COT reports from the futures market, e.g., via platforms like *Nasdaq Data Link* or directly from *CFTC*.
-   - Optionally, add other data (e.g., closing prices, trading volumes) that may enrich the analysis.
+This repository contains a methodology for predicting the `Close` price of a financial instrument using clustering techniques (K-Means) and tree-based models (LightGBM). This workflow explores the application of unsupervised learning to identify market patterns and uses these patterns as features in a supervised regression task.
 
-### 3. *Exploratory Data Analysis (EDA)*
-   - *Examine data distributions*: Investigate the structure of COT data, such as commercial, non-commercial, and speculative positions.
-   - *Correlation*: Check correlations between COT variables and market variables (e.g., prices or volume).
-   - *Time-series visualization*: Create time-series charts to observe the dynamics of market positions and prices over time.
+---
 
-### 4. *Data Processing*
-   - *Fill missing data*: Handle gaps in the data using methods like interpolation or forward-fill.
-   - *Standardization and normalization*: Prepare the data for modeling, especially if using machine learning techniques requiring scaled data.
-   - *Feature engineering*: Create new features from existing data, such as weekly changes, momentum indicators, or moving averages.
+## Overview
+The project aims to:
 
-### 5. *Model Building*
-   - *Model selection*: Choose models suitable for time-series predictions, e.g., regression models, XGBoost, LSTM, or autoregressive models like ARIMA or Prophet.
-   - *Train-test split*: Split the data into training and testing sets to evaluate model accuracy.
-   - *Hyperparameter optimization*: Use techniques like Grid Search or Random Search to optimize model parameters.
+1. **Cluster Analysis:** Use K-Means clustering to group similar data points and identify market patterns.
+2. **Feature Engineering:** Leverage cluster labels and other features as predictors.
+3. **Regression Modeling:** Train a LightGBM model to predict the `Close` price of the financial instrument.
+4. **Performance Evaluation:** Assess the model's accuracy and interpret feature importance to understand the contribution of clustering.
 
-### 6. *Model Validation and Evaluation*
-   - *Test set evaluation*: Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), or the coefficient of determination (R²) to assess the model.
-   - *Error analysis*: Examine prediction errors to identify areas where the model underperforms.
+---
 
-### 7. *Results Analysis*
-   - Interpret the model's results and trained parameters to derive insights about the market (e.g., are specific COT positions strong predictors of price changes?).
-   - Analyze how different investor groups (commercial vs. non-commercial) impact predictive outcomes.
+## Methodology
 
-### 8. *Visualization and Reporting*
-   - Present results using charts and tables in a Jupyter Notebook to ensure clarity.
-   - Document the final model results, analysis insights, and recommendations.
+### 1. Data Preparation
+- **Input Data:**
+  - Financial data with columns such as:
+    - `NonComm_Positions_Long_All`
+    - `NonComm_Positions_Short_All`
+    - `Close`
+    - Cluster labels (`Cluster_3`, `Cluster_4`)
+  - Ensure data has no missing values.
 
-### 9. *Conclusions and Future Recommendations*
-   - Summarize the key findings of the project and propose ways to improve the modeling (e.g., adding new data, testing alternative models).
-   - Consider practical applications of the results, such as in investment strategies.
+- **Scaling:**
+  - Standardize numerical features using `StandardScaler` to improve clustering performance.
 
-Preparing and documenting each step in a Jupyter Notebook will make the project more transparent and professional.
+### 2. Clustering
+- **K-Means Clustering:**
+  - Determine the optimal number of clusters using the Elbow Method.
+  - Generate cluster labels (`Cluster_3` and `Cluster_4`) for use as features in the regression model.
+
+```python
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+data_scaled = scaler.fit_transform(df_unsupervised)
+
+kmeans = KMeans(n_clusters=4, random_state=42)
+df_unsupervised['Cluster_4'] = kmeans.fit_predict(data_scaled)
+```
+
+### 3. Regression Modeling
+- **Model:** Use LightGBM to predict the `Close` price.
+- **Features:**
+  - `Cluster_3`
+  - `Cluster_4`
+  - Additional features such as `NonComm_Positions_Long_All` and `Change_in_NonComm_Long_All`.
+
+```python
+import lightgbm as lgb
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
+
+features = df_unsupervised[['Cluster_4', 'NonComm_Positions_Long_All']]
+target = df_unsupervised['Close']
+
+X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
+lgb_model = lgb.LGBMRegressor(random_state=42)
+lgb_model.fit(X_train, y_train)
+
+# Evaluate
+y_pred = lgb_model.predict(X_test)
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+```
+
+### 4. Model Evaluation
+- **Metrics:**
+  - Mean Squared Error (MSE)
+  - R² Score
+
+- **Feature Importance:**
+  Analyze the importance of cluster labels and other features to understand their impact on predictions.
+
+```python
+importance = lgb_model.feature_importances_
+for i, col in enumerate(features.columns):
+    print(f"Feature: {col}, Importance: {importance[i]}")
+```
+
+---
+
+## Results
+
+### Key Findings:
+1. **Cluster Importance:**
+   - `Cluster_4` significantly contributes to the prediction of `Close`, indicating meaningful market patterns.
+   - `Cluster_3` adds moderate value.
+
+2. **Model Performance:**
+   - Achieved an MSE of ~0.00137 and R² score of ~0.47 using LightGBM.
+   - Incorporating additional features further improved performance.
+
+---
+
+## Usage
+
+### Prerequisites
+- Python 3.8+
+- Required Libraries: `numpy`, `pandas`, `scikit-learn`, `lightgbm`, `matplotlib`, `seaborn`
+
+Install dependencies:
+```bash
+pip install numpy pandas scikit-learn lightgbm matplotlib seaborn
+```
+
+### Run the Code
+1. Prepare your dataset and ensure it includes the required columns (`Close`, `NonComm_Positions_Long_All`, etc.).
+2. Execute the clustering script to generate `Cluster_3` and `Cluster_4` labels.
+3. Train the LightGBM model using the provided regression code.
+4. Evaluate the model performance and analyze feature importance.
+
+---
+
+## Future Work
+1. **Feature Engineering:**
+   - Add lagged features, moving averages, and volatility measures.
+2. **Hyperparameter Tuning:**
+   - Use grid search or random search to optimize LightGBM parameters.
+3. **Alternative Models:**
+   - Experiment with CatBoost, XGBoost, or Neural Networks.
+
+---
+
+## References
+- [LightGBM Documentation](https://lightgbm.readthedocs.io/)
+- [Scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)
+
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
