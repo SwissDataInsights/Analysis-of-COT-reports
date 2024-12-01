@@ -1,6 +1,10 @@
 # README: Predicting Close Price with Clustering and LightGBM
 
-This repository contains a methodology for predicting the `Close` price of a financial instrument using clustering techniques (K-Means) and tree-based models (LightGBM). This workflow explores the application of unsupervised learning to identify market patterns and uses these patterns as features in a supervised regression task.
+The project aims to investigate the possibility of predicting changes in the EUR/USD rate based on data included in the Commitment of Traders (COT) reports published by the Commodity Futures Trading Commission (CFTC). These reports provide detailed information on the positioning of various groups of market participants, such as hedgers, speculators and institutional investors, in futures and options contracts.
+
+The project will analyze historical data of the EUR/USD rate and data from COT reports, such as the number of long and short positions in various categories of market participants. The goal is to identify patterns and relationships between this data and exchange rate movements. The project will use advanced data analysis methods, such as exploratory data analysis (EDA), construction of predictive models based on machine learning and evaluation of their effectiveness.
+
+The project involves the development of a complete analytical pipeline, including data loading and processing, exploration of key variables, implementation of predictive models and visualization of results. The end result will be an assessment of the usefulness of COT data as a predictor of changes in the EUR/USD rate and the presentation of recommendations for practical applications
 
 ---
 
