@@ -1,142 +1,115 @@
-# README: Predicting Close Price with Clustering and LightGBM
+# COT Analyst Project
 
-The project aims to investigate the possibility of predicting changes in the EUR/USD rate based on data included in the Commitment of Traders (COT) reports published by the Commodity Futures Trading Commission (CFTC). These reports provide detailed information on the positioning of various groups of market participants, such as hedgers, speculators and institutional investors, in futures and options contracts.
+## Description
 
-The project will analyze historical data of the EUR/USD rate and data from COT reports, such as the number of long and short positions in various categories of market participants. The goal is to identify patterns and relationships between this data and exchange rate movements. The project will use advanced data analysis methods, such as exploratory data analysis (EDA), construction of predictive models based on machine learning and evaluation of their effectiveness.
-
-The project involves the development of a complete analytical pipeline, including data loading and processing, exploration of key variables, implementation of predictive models and visualization of results. The end result will be an assessment of the usefulness of COT data as a predictor of changes in the EUR/USD rate and the presentation of recommendations for practical applications
+The **COT Analyst Project** analyzes **Commitment of Traders (COT)** reports to provide insights into the positions of different market participants in futures markets. The project uses Python in a **Jupyter Notebook** environment to automate the process of downloading, processing, and visualizing COT data. This helps identify patterns and trends in trader behavior, which can be useful for making informed trading decisions.
 
 ---
 
-## Overview
-The project aims to:
+## Features
 
-1. **Cluster Analysis:** Use K-Means clustering to group similar data points and identify market patterns.
-2. **Feature Engineering:** Leverage cluster labels and other features as predictors.
-3. **Regression Modeling:** Train a LightGBM model to predict the `Close` price of the financial instrument.
-4. **Performance Evaluation:** Assess the model's accuracy and interpret feature importance to understand the contribution of clustering.
+1. **Data Retrieval**:
+   - Automatically downloads historical COT data from the official CFTC website.
+   - Supports data for multiple years (e.g., 2017, 2018, 2019, 2020).
+
+2. **Data Processing**:
+   - Extracts and processes data from ZIP files.
+   - Cleans and formats COT data for analysis.
+
+3. **Visualization**:
+   - Generates charts to visualize trader positions (e.g., Commercial Traders, Non-Commercial Traders).
+   - Helps identify trends and sentiment shifts in futures markets.
+
+4. **Model Comparison**:
+   - Compares machine learning models (e.g., **Random Forest**, **Voting Classifier**) for analyzing COT data.
+   - Provides evaluation metrics and model interpretations.
+
+5. **Interpretation**:
+   - Detailed interpretation of model results, including performance metrics such as accuracy, precision, and recall.
 
 ---
 
-## Methodology
+## Project Structure
 
-### 1. Data Preparation
-- **Input Data:**
-  - Financial data with columns such as:
-    - `NonComm_Positions_Long_All`
-    - `NonComm_Positions_Short_All`
-    - `Close`
-    - Cluster labels (`Cluster_3`, `Cluster_4`)
-  - Ensure data has no missing values.
-
-- **Scaling:**
-  - Standardize numerical features using `StandardScaler` to improve clustering performance.
-
-### 2. Clustering
-- **K-Means Clustering:**
-  - Determine the optimal number of clusters using the Elbow Method.
-  - Generate cluster labels (`Cluster_3` and `Cluster_4`) for use as features in the regression model.
-
-```python
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
-
-scaler = StandardScaler()
-data_scaled = scaler.fit_transform(df_unsupervised)
-
-kmeans = KMeans(n_clusters=4, random_state=42)
-df_unsupervised['Cluster_4'] = kmeans.fit_predict(data_scaled)
 ```
-
-### 3. Regression Modeling
-- **Model:** Use LightGBM to predict the `Close` price.
-- **Features:**
-  - `Cluster_3`
-  - `Cluster_4`
-  - Additional features such as `NonComm_Positions_Long_All` and `Change_in_NonComm_Long_All`.
-
-```python
-import lightgbm as lgb
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
-
-features = df_unsupervised[['Cluster_4', 'NonComm_Positions_Long_All']]
-target = df_unsupervised['Close']
-
-X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
-lgb_model = lgb.LGBMRegressor(random_state=42)
-lgb_model.fit(X_train, y_train)
-
-# Evaluate
-y_pred = lgb_model.predict(X_test)
-mse = mean_squared_error(y_test, y_pred)
-r2 = r2_score(y_test, y_pred)
-```
-
-### 4. Model Evaluation
-- **Metrics:**
-  - Mean Squared Error (MSE)
-  - R² Score
-
-- **Feature Importance:**
-  Analyze the importance of cluster labels and other features to understand their impact on predictions.
-
-```python
-importance = lgb_model.feature_importances_
-for i, col in enumerate(features.columns):
-    print(f"Feature: {col}, Importance: {importance[i]}")
+COT_Analyst/
+│-- COT_analyst.ipynb     # Jupyter Notebook with the full analysis
+│-- data/                 # Directory for extracted COT data files
+└-- README.md             # Project documentation (this file)
 ```
 
 ---
 
-## Results
+## Requirements
 
-### Key Findings:
-1. **Cluster Importance:**
-   - `Cluster_4` significantly contributes to the prediction of `Close`, indicating meaningful market patterns.
-   - `Cluster_3` adds moderate value.
+To run this project, you'll need:
 
-2. **Model Performance:**
-   - Achieved an MSE of ~0.00137 and R² score of ~0.47 using LightGBM.
-   - Incorporating additional features further improved performance.
+- **Python 3.x**
+- **Jupyter Notebook**
+- **Libraries**:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `requests`
+  - `yfinance`
+  - `zipfile`
 
----
+### Installation
 
-## Usage
+You can install the required libraries using the following command:
 
-### Prerequisites
-- Python 3.8+
-- Required Libraries: `numpy`, `pandas`, `scikit-learn`, `lightgbm`, `matplotlib`, `seaborn`
-
-Install dependencies:
 ```bash
-pip install numpy pandas scikit-learn lightgbm matplotlib seaborn
+pip install pandas numpy matplotlib requests yfinance
 ```
 
-### Run the Code
-1. Prepare your dataset and ensure it includes the required columns (`Close`, `NonComm_Positions_Long_All`, etc.).
-2. Execute the clustering script to generate `Cluster_3` and `Cluster_4` labels.
-3. Train the LightGBM model using the provided regression code.
-4. Evaluate the model performance and analyze feature importance.
+---
+
+## How to Use the Project
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone <repository-url>
+   cd COT_Analyst
+   ```
+
+2. **Launch Jupyter Notebook**:
+
+   ```bash
+   jupyter notebook COT_analyst.ipynb
+   ```
+
+3. **Run the Notebook**:
+   - Execute each cell sequentially to download data, process it, visualize results, and compare models.
+   - Follow the markdown instructions in the notebook to understand each step.
 
 ---
 
-## Future Work
-1. **Feature Engineering:**
-   - Add lagged features, moving averages, and volatility measures.
-2. **Hyperparameter Tuning:**
-   - Use grid search or random search to optimize LightGBM parameters.
-3. **Alternative Models:**
-   - Experiment with CatBoost, XGBoost, or Neural Networks.
+## Insights and Analysis
+
+- **COT Data Analysis** helps identify positions held by different trader groups.
+- **Model Comparison** offers a quantitative assessment of how different machine learning models perform on the COT data.
+- **Visualizations** provide an intuitive understanding of market sentiment and trading patterns.
 
 ---
 
-## References
-- [LightGBM Documentation](https://lightgbm.readthedocs.io/)
-- [Scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)
+## Potential Improvements
+
+1. **Expand Data Sources**:
+   - Include additional years or other futures markets.
+
+2. **Model Optimization**:
+   - Explore more machine learning models or optimize current model parameters.
+
+3. **Interactive Visualizations**:
+   - Add interactive charts for deeper analysis.
 
 ---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
+This project is licensed under the **MIT License**.
+
+---
+
+**Happy Analyzing!** 📈
