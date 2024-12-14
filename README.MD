@@ -4,6 +4,17 @@
 
 The **COT Analyst Project** analyzes **Commitment of Traders (COT)** reports to provide insights into the positions of different market participants in futures markets. The project uses Python in a **Jupyter Notebook** environment to automate the process of downloading, processing, and visualizing COT data. This helps identify patterns and trends in trader behavior, which can be useful for making informed trading decisions.
 
+Project Goals:
+
+Market Sentiment Analysis:
+The project analyzes the positions held by different groups of traders (e.g., commercial traders, non-commercial traders, hedgers, speculators) to understand the prevailing sentiment in the futures market.
+
+Identification of Trading Patterns:
+Based on historical COT reports, it is possible to detect recurring patterns in trader behavior that often precede price changes in the market.
+
+Predictive Modeling:
+The project enables the use of machine learning models (e.g., Random Forest, Voting Classifier) to analyze COT data and forecast potential market movements.
+
 ---
 
 ## Features
